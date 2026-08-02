@@ -1,8 +1,17 @@
 aid: voize
 name: voize
-description: 'voize is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare; ai-enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  voize is a German healthcare AI company (voize GmbH) building a voice-documentation
+  platform for long-term care, skilled nursing, and disability-support facilities.
+  Caregivers speak naturally on a smartphone during patient care and voize's on-device
+  and cloud speech models convert the free speech into structured, categorized entries
+  that sync bi-directionally in real time into the facility's electronic health record
+  (EHR) system. The product reduces documentation burden for nursing staff, works
+  offline, recognizes patient names and corrects grammar, and integrates directly with
+  major EHRs used in skilled nursing. voize is backed by HV Capital and operates in
+  Germany and the United States. It ships a mobile application rather than a public
+  developer API, but exposes EHR integrations, a trust center, and a vulnerability
+  disclosure / bug bounty program on its public surface.
 url: https://raw.githubusercontent.com/api-evangelist/voize/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +19,59 @@ x-backed-by:
 - hv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.voize.ai/favicon.ico
 tags:
 - Company
-- Healthcare; Ai Enterprise Software
+- Healthcare
+- AI
+- Speech Recognition
+- Voice Documentation
+- Nursing
+- Electronic Health Records
+- Long-term Care
 apis: []
+common:
+- type: DomainSecurity
+  url: security/voize-domain-security.yml
+- type: Website
+  url: https://www.voize.ai
+- type: About
+  url: https://www.voize.ai/us/about
+- type: Blog
+  url: https://www.voize.ai/us/blog
+- type: TrustCenter
+  url: https://trust.voize.ai/
+- type: VulnerabilityDisclosure
+  url: security/voize-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.voize.ai/us/bug-bounty
+- type: PrivacyPolicy
+  url: https://www.voize.ai/us/datenschutz
+- type: SignUp
+  url: https://www.voize.ai/us/book-a-demo
+- type: LLMsTxt
+  url: llms/voize-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

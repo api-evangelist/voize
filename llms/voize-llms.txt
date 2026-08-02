@@ -1,0 +1,28 @@
+# voize
+
+> voize (voize GmbH) is a German healthcare AI company building a voice-documentation
+> platform for long-term care, skilled nursing, and disability-support facilities.
+> Caregivers speak naturally on a smartphone during patient care and voize's speech
+> models convert the free speech into structured, categorized entries that sync
+> bi-directionally in real time into the facility's electronic health record (EHR).
+> The product works offline, recognizes patient names, and integrates with major EHRs.
+> voize ships a mobile application; it does not currently publish a public developer API.
+
+## Company
+- [Website](https://www.voize.ai): voize product overview and platform
+- [About](https://www.voize.ai/us/about): company background and mission
+- [Customer Stories](https://www.voize.ai/us/customer-stories): facility case studies
+- [Blog](https://www.voize.ai/us/blog): product and company updates
+- [Careers](https://www.voize.ai/us/careers): open roles
+
+## Security and Trust
+- [Trust Center](https://trust.voize.ai/): Vanta-hosted security and compliance posture
+- [Bug Bounty / Vulnerability Disclosure](https://www.voize.ai/us/bug-bounty): responsible disclosure program (security@voize.ai)
+- [Privacy](https://www.voize.ai/us/datenschutz): data protection and privacy policy
+
+## Get Started
+- [Book a Demo](https://www.voize.ai/us/book-a-demo): request access and onboarding
+
+## Notes
+- No public developer API, OpenAPI specification, SDK, or docs host was found as of 2026-07-21.
+- Backed by HV Capital. Operates in Germany and the United States.

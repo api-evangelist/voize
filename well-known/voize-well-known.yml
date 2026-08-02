@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of /.well-known/* on voize hosts
+note: >-
+  No real well-known documents were found. www.voize.ai returns 404 for every
+  /.well-known/ path. trust.voize.ai is a Vanta-hosted trust-center SPA that
+  returns its HTML index (content-type text/html) for every path, so its 200
+  responses are the SPA shell, not genuine well-known documents. Recorded for
+  auditability; no WellKnown pointer wired.
+hosts:
+- host: www.voize.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: trust.voize.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 200, real: false, reason: spa-html-shell}
+  - {path: /.well-known/openid-configuration, status: 200, real: false, reason: spa-html-shell}

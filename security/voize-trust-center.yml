@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.voize.ai/
+platform: vanta
+source: https://trust.voize.ai/
+certifications: []
+note: >-
+  voize operates a Vanta-hosted trust center at trust.voize.ai. The page is a
+  JavaScript single-page app whose certification list is rendered client-side and
+  could not be read server-side, so no specific certifications are recorded here
+  (no fabrication). The trust center exists and is verified live; named
+  certifications should be captured on a future JS-rendering pass. No `Compliance`
+  pointer is emitted because no certifications were verified.
+evidence:
+- source: https://trust.voize.ai/
+  kind: trust-center
+  keywords: [vanta, trust center]
